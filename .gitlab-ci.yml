@@ -1,0 +1,17 @@
+image: node:12
+
+stages:
+  - lint
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - yarn install --frozen-lockfile
+    - yarn generate
+  artifacts:
+    paths:
+      - public
+    expire_in: 7 day
+  only:
+    - master

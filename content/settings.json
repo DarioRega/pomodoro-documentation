@@ -1,0 +1,10 @@
+{
+  "title": "Pomodoro Documentation",
+  "url": "https://doc.pomodoro.seelo.ch",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "",
+  "twitter": ""
+}
