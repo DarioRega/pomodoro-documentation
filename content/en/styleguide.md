@@ -4,7 +4,8 @@ description: 'Storybook styleguide for Pomodoro application'
 position: 1
 ---
 
-This styleguide is made with [Storybook ](https://storybook.js.org/)
+Styleguide production: [Pomodoro Styleguide](https://styleguide.pomodoro.seelo.ch)  
+This styleguide is made with [Storybook](https://storybook.js.org/)
 
   
 ##  Installation
