@@ -32,6 +32,44 @@ port, so you do not have conflicts.
 
 ##  Install
   ```bash
-  cd ./backend
-  ./vendor/bin/sail up
+cd ./backend
+./vendor/bin/sail up
   ```
+
+### Laravel Sails
+instead of repeatedly typing vendor/bin/sail to execute Sail commands,
+you may wish to configure a Bash alias that allows you to execute Sail's
+commands more easily:
+
+```bash
+alias sail='bash vendor/bin/sail'
+```
+
+Once the Bash alias has been configured, you may execute Sail 
+commands by simply typing sail. 
+```bash
+sail up
+```
+
+#### Running php laravel commands on sails
+```bash
+# Running Artisan commands locally...
+php artisan queue:work
+npm run prod
+
+# Running Artisan commands within Laravel Sail...
+sail artisan queue:work
+sail npm run prod
+```
+
+For more information about sail command refer to 
+[laravel Sails](https://laravel.com/docs/8.x/sail)
+
+### Up and running
+Now that all is installed you can access the application via:
+
+| Name        | Url                   | Description              |
+|-------------|:----------------------|:-------------------------|
+| Laravel     | http://localhost      | Main laravel application |
+| Mailhug     | http://localhost:8025 | Local email testing      |
+| MeiliSearch | http://localhost:7700 | Meili Search dashboard   |
