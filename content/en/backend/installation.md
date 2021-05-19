@@ -31,10 +31,6 @@ port, so you do not have conflicts.
 | Redis       | `6379`       | FORWARD_REDIS_PORT             |
 
 ##  Install
-  ```bash
-cd ./backend
-./vendor/bin/sail up
-  ```
 
 ### Laravel Sails
 instead of repeatedly typing vendor/bin/sail to execute Sail commands,
@@ -61,6 +57,13 @@ npm run prod
 sail artisan queue:work
 sail npm run prod
 ```
+
+### Start containers and server
+  ```bash
+cd ./backend
+sail up
+sail artisan migrate
+  ```
 
 For more information about sail command refer to 
 [laravel Sails](https://laravel.com/docs/8.x/sail)
