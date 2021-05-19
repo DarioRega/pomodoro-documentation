@@ -73,3 +73,17 @@ Now that all is installed you can access the application via:
 | Laravel     | http://localhost      | Main laravel application |
 | Mailhug     | http://localhost:8025 | Local email testing      |
 | MeiliSearch | http://localhost:7700 | Meili Search dashboard   |
+
+
+## Database connection
+
+These are de default values
+you can change them in your `.env` file
+
+|  Name     |  Value     |
+|:----------|:-----------|
+| Host      | `0.0.0.0`  |
+| port      | `3306`     |
+| database  | `backend`  |
+| username  | `sail`     |
+| password  | `password` |
