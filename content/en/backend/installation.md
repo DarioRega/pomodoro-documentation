@@ -32,6 +32,12 @@ port, so you do not have conflicts.
 
 ##  Install
 
+### Generate the .env file
+
+```bash
+cp .env.example .env
+```
+
 ### Laravel Sails
 instead of repeatedly typing vendor/bin/sail to execute Sail commands,
 you may wish to configure a Bash alias that allows you to execute Sail's
