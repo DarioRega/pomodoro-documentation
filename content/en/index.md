@@ -11,6 +11,8 @@ technologies:
 
 backendTechnologies:
   - Laravel
+  - Laravel Jetstream
+  - Inertia.js
   - Docker
   - Websockets
   - Mysql

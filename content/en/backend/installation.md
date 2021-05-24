@@ -77,11 +77,13 @@ For more information about sail command refer to
 ### Up and running
 Now that all is installed you can access the application via:
 
-| Name        | Url                   | Description              |
-|-------------|:----------------------|:-------------------------|
-| Laravel     | http://localhost      | Main laravel application |
-| Mailhug     | http://localhost:8025 | Local email testing      |
-| MeiliSearch | http://localhost:7700 | Meili Search dashboard   |
+| Name        | Url                                 | Description                 |
+|:------------|:------------------------------------|:----------------------------|
+| Laravel     | http://localhost:80                 | Main laravel application    |
+| Mailhug     | http://localhost:8025               | Local email testing         |
+| MeiliSearch | http://localhost:7700               | Meili Search dashboard      |
+| Websockets  | http://localhost/laravel-websockets | Laravel websocket dashboard |
+
 
 
 ## Database connection
