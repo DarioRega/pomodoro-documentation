@@ -27,8 +27,6 @@ port, so you do not have conflicts.
 | Mysql       | `3306`       | FORWARD_DB_PORT                |
 | Mailhug     | `1025`       | FORWARD_MAILHOG_PORT           |
 | Mailhug     | `8025`       | FORWARD_MAILHOG_DASHBOARD_PORT |
-| Meilisearch | `7700`       | FORWARD_MEILISEARCH_PORT       |
-| Redis       | `6379`       | FORWARD_REDIS_PORT             |
 
 ##  Install
 
@@ -53,17 +51,6 @@ commands by simply typing sail.
 sail up
 ```
 
-#### Running php laravel commands on sails
-```bash
-# Running Artisan commands locally...
-php artisan queue:work
-npm run prod
-
-# Running Artisan commands within Laravel Sail...
-sail artisan queue:work
-sail npm run prod
-```
-
 ### Start containers and server
   ```bash
 cd ./backend
@@ -71,8 +58,17 @@ sail up
 sail artisan migrate
   ```
 
+
 For more information about sail command refer to 
 [laravel Sails](https://laravel.com/docs/8.x/sail)
+
+
+#### Expose server:
+```bash
+./vendor/bin/sail share --subdomain=pomodoro
+or 
+php artisan expose
+```
 
 ### Up and running
 Now that all is installed you can access the application via:
@@ -81,8 +77,6 @@ Now that all is installed you can access the application via:
 |:------------|:------------------------------------|:----------------------------|
 | Laravel     | http://localhost:80                 | Main laravel application    |
 | Mailhug     | http://localhost:8025               | Local email testing         |
-| MeiliSearch | http://localhost:7700               | Meili Search dashboard      |
-| Websockets  | http://localhost/laravel-websockets | Laravel websocket dashboard |
 
 
 

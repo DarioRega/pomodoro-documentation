@@ -1,5 +1,5 @@
 ---
-title: Styleguide
+title: Frontend
 description: 'Storybook styleguide for Pomodoro application'
 position: 1
 ---
@@ -13,7 +13,8 @@ This styleguide is made with [Storybook](https://storybook.js.org/)
   ```bash
   git clone git@gitlab.com:seelo/pomodoro/styleguide.git
   cd ./styleguide
-  npm install
+  yarn install
+  cp .env.example .env
   ```
 
 ## Release
@@ -28,7 +29,7 @@ You can find the configuration file here: `.release-it.json`
 
 ### Release command
 ```bash
-npm run release
+yarn release
 ```
 
 
@@ -37,19 +38,19 @@ npm run release
 ### Compiles and hot-reloads for development
 
 ```bash
-npm start
+yarn start
 ```
 
 ### Compiles and minifies for production
 
 ```bash 
-npm run build
+yarn run build
 ```
 
 ### Lints and fixes files
 
 ```bash
-npm run lint
+yarn run lint
 ```
 
 
