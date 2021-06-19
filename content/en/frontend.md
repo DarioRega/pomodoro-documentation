@@ -1,7 +1,7 @@
 ---
 title: Frontend
 description: 'Storybook styleguide for Pomodoro application'
-position: 5
+position: 4
 ---
 
 Styleguide production: [Pomodoro Styleguide](https://styleguide.pomodoro.seelo.ch)  
