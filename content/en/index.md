@@ -29,6 +29,13 @@ Vous pouvez interagir les étapes durant votre session, vous pouvez:
 - Skipper une étape (seulement possible durant une étape en pause)
 - Abort l'entier de la session (seulement possible durant une étape en pause)Nous utilisons les websockets pour pouvoir bénéficier d'un affichage/changements des informations en temps réel, les données transmisespar Websocket concernent:Les tâches, (update, delete, create)La session en cours, ainsi que toutes les actions qui vont avec.
 
+## Accessibilité
+Le layout actuel utilisé n'est pas disponible pour les screens < 1024px,
+lors de la v2 nous ajouterons le layout grid, dès lors tout les types de devices auront accès à celui-ci.
+
+Nous avons fait de notre mieux pour pouvoir rendre ce site accessible et navigable à l'aide du clavier
+
+
 ## Personnalisation de l'expérience
 Vous avez également accès un panel settings, ou vous aurez accès aux informations suivantes:
 
